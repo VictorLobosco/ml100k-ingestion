@@ -19,7 +19,7 @@ when you run the code you need to specify the location of the postgress driver t
 
 
 
-here is a example of how to run the code, just change the paths to the one you will use:
+here is a example of how to run the code, just change the paths to the ones you will use:
 
 spark-submit --driver-class-path C:\Spark\postgresql-42.2.23.jar ml100k.py --url jdbc:postgresql://localhost:5432/ml100k --schema ml100k --user postgres --password admin
 
