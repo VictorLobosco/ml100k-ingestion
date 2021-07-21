@@ -7,9 +7,13 @@ to run the code you need to either have the ml100k folder on the root of the C: 
 
 when you run the code you need to specify the location of the postgress driver the URL, SCHEMA, USER and PASSWORD, that is done using the commands:
 --driver-class-path for the postgress driver.
+
 --url for database.
+
 --schema for the schema that will be used, you will have to use a already existing schema as the code does not create one.
+
 --user for the user to login in the database
+
 --password for the password to login in the database.
 
 
